@@ -136,7 +136,7 @@ _XCTRegisterFailure(_XCTFailureDescription(_XCTAssertion_True, 1, @#expression, 
     if (accountInfo) {
         _account.text = accountInfo;
     }else{
-    _account.text = @"admin";
+    _account.text = @"dlhoangha";
     }
     [self.view addSubview:_account];
 //    [_account addTarget:self action:@selector(textFieldChange:) forControlEvents:UIControlEventEditingChanged];
@@ -162,7 +162,7 @@ _XCTRegisterFailure(_XCTFailureDescription(_XCTAssertion_True, 1, @#expression, 
     if (passwordInfo) {
         _password.text = passwordInfo;
     }else{
-    _password.text = @"admin";
+    _password.text = @"@admin123";
     }
     _password.secureTextEntry = true;
     [self.view addSubview:_password];
@@ -189,7 +189,7 @@ _XCTRegisterFailure(_XCTFailureDescription(_XCTAssertion_True, 1, @#expression, 
         make.height.mas_offset(labelSzie.height);
     }];
     UILabel *label3 = [UILabel new];
-    label3.text = @"port:";
+    label3.text = @"port:80";
     [self.view addSubview:label3];
     labelSzie = [label3 sizeThatFits:CGSizeMake(MainScreenWidth, MainScreenHeight)];
     [label3 mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -216,7 +216,7 @@ _XCTRegisterFailure(_XCTFailureDescription(_XCTAssertion_True, 1, @#expression, 
     if (serverInfo) {
         _server.text = serverInfo;
     }else{
-    _server.text = @"192.168.1.60";
+    _server.text = @"103.237.144.141";
     }
     
     [self.view addSubview:_server];
@@ -246,7 +246,7 @@ _XCTRegisterFailure(_XCTFailureDescription(_XCTAssertion_True, 1, @#expression, 
     
     _deviceIdno = [UITextField new];
     _deviceIdno.borderStyle = UITextBorderStyleRoundedRect;
-    _deviceIdno.text = @"";
+    _deviceIdno.text = @"295177";
     [self.view addSubview:_deviceIdno];
     _deviceIdno.delegate = self;
     

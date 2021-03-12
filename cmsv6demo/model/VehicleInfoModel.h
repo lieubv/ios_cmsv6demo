@@ -23,11 +23,11 @@
 //@property (nonatomic , copy)NSString *tn;
 
 @end
-//id    number    车辆ID
-//nm    string    车牌号
-//ic    number    车辆图标
-//pid    number    所属公司或者车队
-//dl    Array    设备列表
+//id    number    车辆ID 	vehicle ID
+//nm    string    车牌号  	Number Plate
+//ic    number    车辆图标	vehicle
+//pid    number    所属公司或者车队 Company or fleet
+//dl    Array    设备列表 	device list
 //以下是设备信息
 
 

@@ -14,6 +14,7 @@
 		18912D2017FAB67600BEA969 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18912D1E17FAB67600BEA969 /* Main_iPad.storyboard */; };
 		18912D2317FAB67600BEA969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18912D2217FAB67600BEA969 /* ViewController.m */; };
 		18912D2517FAB67600BEA969 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18912D2417FAB67600BEA969 /* Images.xcassets */; };
+		221ACCD825FB58E500B5AC24 /* TTXSDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 221ACCD625FB583B00B5AC24 /* TTXSDK */; };
 		8D22D14522C472CD00149ECF /* TTXAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D22D14422C472CD00149ECF /* TTXAccountManager.m */; };
 		8D2FE2E12138E75400430351 /* TTXPlaybackVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FE2E02138E75400430351 /* TTXPlaybackVideoController.m */; };
 		8D2FE2E92138E7A700430351 /* VideoPlayerBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FE2E52138E7A700430351 /* VideoPlayerBottomBar.m */; };
@@ -72,7 +73,6 @@
 		8D89FB2421AB8268007B2568 /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D89FB2621AB8268007B2568 /* Localize.strings */; };
 		8DA26ED621B50AE600182CB9 /* LoginInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DA26ED521B50AE600182CB9 /* LoginInfo.plist */; };
 		8DA26ED921B5342B00182CB9 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA26ED821B5342B00182CB9 /* Singleton.m */; };
-		8DAF5A0522BB18D300FA357D /* TTXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF5A0422BB18D300FA357D /* TTXSDK.framework */; };
 		8DAF5A0722BB193A00FA357D /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DAF5A0622BB193A00FA357D /* VideoToolbox.framework */; };
 		8DBF6BF922AF81000088316C /* DeviceSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBF6BF722AF81000088316C /* DeviceSearchView.xib */; };
 		8DBF6BFA22AF81000088316C /* DeviceSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBF6BF822AF81000088316C /* DeviceSearchView.m */; };
@@ -92,6 +92,7 @@
 		18912D2217FAB67600BEA969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18912D2417FAB67600BEA969 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18912D2B17FAB67600BEA969 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		221ACCD625FB583B00B5AC24 /* TTXSDK */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = TTXSDK; path = TTXSDK.framework/TTXSDK; sourceTree = "<group>"; };
 		8D22D14322C472CC00149ECF /* TTXAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTXAccountManager.h; sourceTree = "<group>"; };
 		8D22D14422C472CD00149ECF /* TTXAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTXAccountManager.m; sourceTree = "<group>"; };
 		8D2FE2DF2138E75300430351 /* TTXPlaybackVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTXPlaybackVideoController.h; sourceTree = "<group>"; };
@@ -199,11 +200,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221ACCD825FB58E500B5AC24 /* TTXSDK in Frameworks */,
 				8D326D1522C206D30020B8D3 /* libiconv.tbd in Frameworks */,
 				8D326D1322C2069D0020B8D3 /* libz.tbd in Frameworks */,
 				8D326D1122C206590020B8D3 /* libc++.tbd in Frameworks */,
 				8DAF5A0722BB193A00FA357D /* VideoToolbox.framework in Frameworks */,
-				8DAF5A0522BB18D300FA357D /* TTXSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +232,7 @@
 		18912D0817FAB67600BEA969 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				221ACCD625FB583B00B5AC24 /* TTXSDK */,
 				8DAF5A0422BB18D300FA357D /* TTXSDK.framework */,
 				8DAF5A0622BB193A00FA357D /* VideoToolbox.framework */,
 				8D326D1222C2069D0020B8D3 /* libz.tbd */,
@@ -471,7 +473,7 @@
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					18912D0517FAB67600BEA969 = {
-						DevelopmentTeam = KFHQ288NW9;
+						DevelopmentTeam = R4RM9N78GX;
 					};
 				};
 			};
@@ -480,6 +482,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -704,6 +707,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R4RM9N78GX;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -713,7 +717,9 @@
 				GCC_PREFIX_HEADER = "cmsv6demo/cmsv6demo-Prefix.pch";
 				INFOPLIST_FILE = "cmsv6demo/cmsv6demo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TTXSDK.framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotrack365.cmsv6demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TTXSDK.framework/Headers\"";
@@ -729,6 +735,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = R4RM9N78GX;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -738,7 +745,9 @@
 				GCC_PREFIX_HEADER = "cmsv6demo/cmsv6demo-Prefix.pch";
 				INFOPLIST_FILE = "cmsv6demo/cmsv6demo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LIBRARY_SEARCH_PATHS = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TTXSDK.framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotrack365.cmsv6demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/TTXSDK.framework/Headers\"";
